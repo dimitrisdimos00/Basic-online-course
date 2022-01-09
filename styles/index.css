@@ -1,0 +1,13 @@
+body {
+    background-color: blanchedalmond;
+}
+header{
+    text-align: center;
+}
+
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
