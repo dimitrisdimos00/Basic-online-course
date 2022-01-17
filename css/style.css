@@ -8,6 +8,10 @@ header{
 
 .content {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
 }
 
+.text {
+    margin-left: 5rem;
+}
