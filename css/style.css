@@ -1,17 +1,47 @@
 body {
     background-color: blanchedalmond;
 }
+
 header{
     text-align: center;
 }
 
-
 .content {
     display: flex;
-    /* flex-flow: row wrap; */
-    justify-content: space-between;
+    justify-content: start;
 }
 
-.text {
-    margin-left: 5rem;
+.navigation {
+    min-width: 300px;
+    width: 300px;
 }
+
+.navigation li{
+    list-style-type: none;
+}
+
+.navigation img {
+    width: 80%;
+    height: 40px;
+}
+
+.text img{
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.text button {
+    float: right;
+}
+
+.section h2{
+    color: seagreen;
+}
+
+.section_content {
+    margin-left: 3rem;
+}
+
+
+
