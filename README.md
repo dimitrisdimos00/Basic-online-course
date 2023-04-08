@@ -1,2 +1,1 @@
-# ekpaideytika-perivallonta
-Simple open online course website
+# Simple open online course website
