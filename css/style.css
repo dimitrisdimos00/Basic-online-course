@@ -27,11 +27,12 @@ header{
 
 .text img{
     display: flex;
+    justify-content: center;
     width: 30%;
     margin: auto;
 }
 
-.text button {
+#top_link{
     float: right;
 }
 
@@ -47,5 +48,8 @@ header{
     color: red;
 }
 
-
+/* .login {
+    display: flex-;
+    justify-content: center;
+} */
 

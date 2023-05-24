@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="el,en">
     <header>
-        <title>Έγγραφα μαθήματος</title>
+        <meta charset="UTF-8">        
         <link rel="stylesheet" href="../css/style.css">
-        <script type="text/javascript" src="../javascript.js"></script>
+        <title>Έγγραφα μαθήματος</title>
     </header>
     <body>
+        <a name = "top"></a>
         <header>
             <h1>Έγγραφα μαθήματος</h1>
         </header>
@@ -13,10 +14,10 @@
             <div class="navigation">
                 <ul>
                     <li><a href="index.html"><img src="../images/index_img.jpg" alt=""></a></li>
-                    <li><img src="../images/announcement_img.jpg" alt=""></li>
-                    <li><img src="../images/communication_img.jpg" alt=""></li>
-                    <li><img src="../images/documents_img.png" alt=""></li>
-                    <li><img src="../images/homework_img.jpg" alt=""></li>
+                    <li><a href="announcement.html"><img src="../images/announcement_img.jpg" alt=""></a></li>
+                    <li><a href="communication.html"><img src="../images/communication_img.jpg" alt=""></a></li>
+                    <li><a href="documents.html"><img src="../images/documents_img.png" alt=""></a></li>
+                    <li><a href="homework.html"><img src="../images/homework_img.jpg" alt=""></a></li>
                 </ul>
             </div>
             <div class="text">
@@ -27,6 +28,8 @@
                         <a href="../documents/file1.doc" download>Download</a>
                         <hr>
                     </div>
+                </div>
+                <div class="section">
                     <h2>Τίτλος εγγράφου 2</h2>
                     <div class="section_content">
                         <p>Περιγραφή: Διαφάνειες 2ου κεφαλαίου</p>
@@ -34,7 +37,7 @@
                         <hr>
                     </div>
                 </div>
-                <button onclick="topFunction()", id="top_button">Top</button>
+                <a id="top_link", href="#top">&lt;top&gt;</a>
             </div>
         </div>
     </body>
