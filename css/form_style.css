@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(195, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 77, 207);
+}
+
+.form{
+    background-color: aliceblue;
+    margin:100px auto;
+    width: 250px;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.form input {
+    font-size: 18px;
+    background: none;
+    padding: 10px 15px;
+    color:rgb(77, 77, 207);
+    border-radius: 30px;
+    border: 2px solid rgb(77, 77, 207);
+    margin-bottom: 6px;
+}
+
+.form button {
+    margin-top: 8px;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: rgb(77, 77, 207);
+    color: aliceblue;
+}
