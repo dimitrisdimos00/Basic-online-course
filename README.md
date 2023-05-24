@@ -1,2 +1,1 @@
-# ekpaideytika-perivallonta
-Simple mooc site
+# Simple open online course website
